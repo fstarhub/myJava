@@ -1,3 +1,5 @@
+package com.star;
+
 public class Realiza implements InterfaceAll {
     public void doInterface() {
 

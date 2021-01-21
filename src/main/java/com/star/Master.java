@@ -1,3 +1,5 @@
+package com.star;
+
 public class Master {
     String name="";
     private boolean sex = false;

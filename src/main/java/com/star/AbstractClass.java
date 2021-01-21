@@ -1,3 +1,5 @@
+package com.star;
+
 public abstract class AbstractClass {
     String interesting = "basketball";
     public String color = "pink";

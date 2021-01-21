@@ -1,3 +1,5 @@
+package com.star;
+
 public class Pet {
     String name = "";
     String age = "";

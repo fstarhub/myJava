@@ -1,3 +1,5 @@
+package com.star;
+
 public interface InterfaceAll {
     final static double PI = 3.14;
     static final double PI1 = 3.14;
