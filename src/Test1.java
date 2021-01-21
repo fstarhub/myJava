@@ -5,7 +5,6 @@ public class Test1 {
     public static void main(String[] ages) {
         System.out.println(Arrays.asList(ages));
         System.out.println(Arrays.toString(ages));
-        System.out.println(ages[0]);
         Master petLove = new Master();
         Cat xiaohei = new Cat();
         System.out.println(xiaohei.voice());
