@@ -1,7 +1,11 @@
 import java.lang.reflect.Array;
+import java.util.Arrays;
 
 public class Test1 {
     public static void main(String[] ages) {
+        System.out.println(Arrays.asList(ages));
+        System.out.println(Arrays.toString(ages));
+        System.out.println(ages[0]);
         Master petLove = new Master();
         Cat xiaohei = new Cat();
         System.out.println(xiaohei.voice());
@@ -27,8 +31,8 @@ public class Test1 {
         arr3[2] = 100;
         float[] arr4;
         arr4 = new float[3];
-        for (int a =0; a<9; a++) {
-            System.out.println(arr4[a]);
-        }
+//        for (int a =0; a<9; a++) {
+//            System.out.println(arr4[a]);
+//        }
     }
 }
