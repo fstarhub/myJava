@@ -1,6 +1,7 @@
 package com.star;
 
 import java.text.SimpleDateFormat;
+import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -13,6 +14,7 @@ public class Dog extends Pet {
         return "狗跳";
     }
     public void doMath(double[] array) {
+        System.out.println(Arrays.toString(array));
 //        double[] list = {12, 23,34,32};
         for (double element: array) {
             System.out.println(element);
@@ -29,9 +31,9 @@ public class Dog extends Pet {
 //        System.out.println(timeNow.getTime());
         System.out.println(month + " " + hour);
         double[] numArr = new double[3];
-        numArr[0] = 0.342;
-        numArr[1] = 8.34;
-        numArr[2] = 80.3;
+//        numArr[0] = 0.342;
+//        numArr[1] = 8.34;
+//        numArr[2] = 80.3;
         double total = 0;
         for (int i = 0; i < numArr.length; i ++) {
             total += numArr[i];

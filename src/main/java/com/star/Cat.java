@@ -24,4 +24,13 @@ public class Cat extends Pet {
         Scanner out = new Scanner(System.in);
         return "out" + out;
     }
+
+    @Override
+    public String toString() {
+        return "Cat{" +
+                "name='" + name + '\'' +
+                ", age='" + age + '\'' +
+                ", dogSex=" + dogSex +
+                '}';
+    }
 }
