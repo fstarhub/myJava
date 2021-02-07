@@ -16,8 +16,6 @@ public enum LikeMusic {
         this.age = age;
     }
 
-
-
     public String getName() {
         return name;
     }

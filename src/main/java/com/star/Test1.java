@@ -1,6 +1,8 @@
 package com.star;
 
+import java.text.SimpleDateFormat;
 import java.util.Arrays;
+import java.util.Date;
 
 public class Test1 {
     public static void main(String[] ages) {
@@ -19,7 +21,8 @@ public class Test1 {
         Realiza realizaInterFace = new Realiza();
         System.out.println(realizaInterFace.getFace());
 
-        FlyAble f = new EarlyBird();
+        FlyAble f = new EarlyBird("a","b","c","d");
+        FlyAble f1 = new EarlyBird();
         f.fly();
         String[] arr2 = {"zhangshan", "lisi"};
         String[] arr5 = {"zhangshan", "lisi"};
@@ -99,5 +102,13 @@ public class Test1 {
             }
         }
         System.out.println(Arrays.toString(insetArr));
+
+//        日期处理
+        SimpleDateFormat data1 = new SimpleDateFormat("YYYY-MM-DD HH:mm:ss");
+        String now = data1.format(new Date());
+        System.out.println(now);
+        String data2 = "2021-2-7 16:00:100";
+        SimpleDateFormat date2 = new SimpleDateFormat("YYYY-MM-DD HH:mm:ss:SSS");
+//         Date s = date2.parse(data2);
     }
 }
