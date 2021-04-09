@@ -1,6 +1,7 @@
 package com.star;
 
 public enum LikeMusic {
+
     歌手0("周杰伦",45),
     歌手1("方文山", 50),
     歌手2("草蜢",48);

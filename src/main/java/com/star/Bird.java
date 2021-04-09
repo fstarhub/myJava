@@ -5,4 +5,8 @@ class Bird extends AbstractClass {
         System.out.println("dosome");
         return "woshi dosome";
     }
+
+//    public static void main(String[] args) {
+//        System.out.println("666666");
+//    }
 }
