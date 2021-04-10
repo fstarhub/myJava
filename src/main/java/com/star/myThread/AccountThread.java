@@ -1,4 +1,6 @@
-package com.star;
+package com.star.myThread;
+
+import com.star.myThread.Account;
 
 public class AccountThread extends Thread {
 //    线程共享一个账户

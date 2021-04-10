@@ -1,4 +1,4 @@
-package com.star;
+package com.star.myThread;
 
 public class Account {
 //    账户名
