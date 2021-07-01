@@ -202,5 +202,13 @@ public class Test1 {
 //        启动线程
         t1.start();
         t2.start();
+        Plan ex = new Plan();
+        ex.change(ex.str, ex.ch);
+        System.out.print(ex.str + "and");
+        System.out.print(ex.ch);
+
+        Byte w = 127;
+        System.out.println(~w+ "+++++++++");
+
     }
 }
